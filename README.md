@@ -5,7 +5,7 @@ Based on [this](https://devblogs.microsoft.com/cppblog/build-c-applications-in-a
 ## Docker
 `> docker pull ubuntu`
 
-Use the [Dockerfile]() (placed in directory)
+Use the [Dockerfile](https://github.com/pdahlstedt/LinuxCppDocker1/blob/master/Dockerfile) (placed in directory)
  
 `> docker build -t ubuntu-vs .`
  
