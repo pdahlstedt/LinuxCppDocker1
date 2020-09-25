@@ -12,3 +12,9 @@ Use the [Dockerfile](https://github.com/pdahlstedt/LinuxCppDocker1/blob/master/D
 `> docker run -p 5000:22 -i -t ubuntu-vs /bin/bash`
 
 ## CMake
+
+```
+> sudo apt-get install cmake  
+> cmake -version
+```
+
