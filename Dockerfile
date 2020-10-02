@@ -1,10 +1,10 @@
 # our local base image
 FROM ubuntu
 
-LABEL description="Container for use with Visual Studio"
+LABEL description="Container for use with Visual Studio and CMake"
 
 # install build dependencies
-RUN apt-get update && apt-get install -y g++ rsync zip openssh-server make
+RUN apt-get update && apt-get install -y g++ rsync zip openssh-server make ninja-build
 
 # configure SSH for communication with Visual Studio
 RUN mkdir -p /var/run/sshd
